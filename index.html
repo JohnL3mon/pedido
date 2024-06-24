@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meu pedido">
+    <meta name=”robots” content=”nofollow”>
+
+    
+    <link rel="icon" type="image/png" href="./assets/coracao.png">
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <script src="https://kit.fontawesome.com/0279af7f6a.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<script>
+
+    function proximo1(){
+    document.getElementById('opcao1').style.display = 'none'
+        document.getElementById('opcao2').style.display = 'block';
+        document.getElementById('pro2').style.display = 'block';
+        document.getElementById('pro1').style.display = 'none';
+    }
+
+    function proximo2(){
+    document.getElementById('opcao2').style.display = 'none'
+        document.getElementById('opcao3').style.display = 'block';
+        document.getElementById('pro3').style.display = 'block';
+        document.getElementById('pro2').style.display = 'none';
+    }
+
+    function proximo3(){
+    document.getElementById('opcao3').style.display = 'none'
+        document.getElementById('opcao4').style.display = 'block';
+        document.getElementById('pro4').style.display = 'block';
+        document.getElementById('pro3').style.display = 'none';
+    }
+
+    function proximo4(){
+        document.getElementById('opcao1').style.display = 'block';
+        document.getElementById('opcao4').style.display = 'none';
+        document.getElementById('pro1').style.display = 'block';
+        document.getElementById('pro4').style.display = 'none';
+    }
+
+</script>
+
+<body>
+
+<section class="pedidoCorpo">
+
+    <!-- modal01 -->
+<div id="Modal001" class="modais"><br><br><br><br><br>
+    <div class="modaisCorpo">
+    <br>
+          <p class="pedidoTitulo3" style ="width: 450px; max-width: 95%; margin: auto">Quer ver Divertidamente 2 comigo?</p><br><br>
+          <img class="gato" src="./assets/13.jpg">
+            
+        <div class="modaisConteudo"><br><br><br><br>
+            <button class="sim" onclick="document.getElementById('Modal001').style.display='none'; document.getElementById('Modal002').style.display='block'; ">Sim</button>
+            <button class="sim" onclick="document.getElementById('Modal001').style.display='none' ; document.getElementById('Modal002').style.display='block' ">Com Certeza</button>
+        </div>
+
+          <br>
+        </div>
+</div>
+
+<!-- modal02 -->
+<div id="Modal002" class="modais"><br><br><br><br><br>
+    <div class="modaisCorpo">
+<br>
+
+            <img class="feliz" src="./assets/gif12.gif">
+
+          <br>
+    </div>
+</div>
+
+</div>
+
+
+
+
+
+    <div class="pedidoSticky">
+        <img class="rosasPC" src="./assets/rosas.png">
+        <img class="rosasCelular" src="./assets/rosas2.png">
+    </div>
+
+
+
+
+
+
+    <div class="pedidoDescricao1">
+        <p class="tituloTopo">Boa Tarde Peituda Metida</p><br>
+        <img class="gifTopo" src="./assets/gif8.gif"><br><br>
+        <p class="tituloTopo">Venho por essa carta online te fazer um convite irrecusável</p>
+        <br><br><br><br>
+    </div>
+
+
+    </div>
+
+    <div class="pedidoDescricao2">
+
+        <p class="tituloTopo" style="color: #e0e0e0;">Nesse evento poderemos:</p><br><br>
+        <a class="next" id="pro1" onclick="proximo1()"><p>Próximo</p></a>
+        <a class="next" id="pro2" onclick="proximo2()"><p>Próximo</p></a>
+        <a class="next" id="pro3" onclick="proximo3()"><p>Próximo</p></a>
+        <a class="next" id="pro4" onclick="proximo4()"><p>Próximo</p></a>
+
+    <div class="corpo">
+
+            <div id="opcao1">
+                <img id="gif1" src="./assets/gif10.gif">
+                <p class="topicos">Comer uma porção muito boa :P </p>
+            </div>
+
+            <div id="opcao2">
+                <img id="gif2" class="pedidoGif1" src="./assets/gif15.gif">
+                <p class="topicos">Fazer comentários engraçados :O </p>
+            </div>
+
+            <div id="opcao3">
+                <img id="gif3" class="pedidoGif1" src="./assets/gif9.gif">
+                <p class="topicos">Fofocar bastante sobre coisas ramdons ;]</p>
+            </div>    
+
+            <div id="opcao4">
+                <img id="gif4" class="pedidoGif1" src="./assets/gif1.gif">
+                <p class="topicos">Explodir o capitalismo >:]</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="pedidoDescricao4">
+    <br><br>
+        <p class="tituloTopo" >Então</p>
+        <br><br>
+        <a class="pedidoAqui" onclick="document.getElementById('Modal001').style.display='block'"><img class="pedidoLover" src="./assets/hermit.jpeg">Clique aqui<br></a>
+
+        <br><br><img class="pedidoGif2" src="./assets/gif2.gif"><br>
+        <p class="tituloTopo">Com você senti uma alegria muito pura <3</p><br><br><br><br>
+    </div>
+
+</section>
+
+</body>
